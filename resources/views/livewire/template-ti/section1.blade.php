@@ -50,7 +50,7 @@
                     
                 </div>
 
-                <button class="bg-white bg-opacity-20 backdrop-blur-lg text-white py-1 md:py-1.5 px-2 md:px-4 rounded-lg mt-6 transition duration-300 ease-linear hover:bg-opacity-40 text-sm md:text-lg">Buka Undangan</button>
+                <button onclick="play()" class="bg-white bg-opacity-20 backdrop-blur-lg text-white py-1 md:py-1.5 px-2 md:px-4 rounded-lg mt-6 transition duration-300 ease-linear hover:bg-opacity-40 text-sm md:text-lg">Buka Undangan</button>
             </div>
         </div>
     </div>

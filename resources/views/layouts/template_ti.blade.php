@@ -23,7 +23,7 @@
     @livewireStyles
 </head>
 <body class="antialiased overflow-x-hidden">
-  <audio id="audio" src="{{asset('musik.mp3')}}"></audio>
+  <audio id="audio" src="{{asset('Beautiful in White - Violin Cover by Aloysia Edith (128 kbps).mp3')}}"></audio>
 {{$slot}}
 <footer class="bg-red-600 py-2.5 px-5 relative">
     <div class="flex justify-between items-center">
@@ -54,7 +54,7 @@
         const slide8 = document.getElementById("slide8");
         const slide9 = document.getElementById("slide9");
         const slide10 = document.getElementById("slide10");
-        document.r
+        
         function play(){
             slide2.classList.remove('hidden');
             slide2.scrollIntoView({ behavior: 'smooth', block: 'center' });
