@@ -1,17 +1,20 @@
 <?php
 
-namespace App\Http\Livewire\Components;
+namespace App\Http\Livewire\TemplateTi;
 
-use App\Models\PesanDoa;
+use App\Models\UserTransfer;
 use Livewire\Component;
 
-class Slide10 extends Component
+class Section4 extends Component
 {
-    public $nama, $pesan, $pesanDoa;
+    public $nama, $nama_pemilik, $pesan, $nominal;
+
 
     protected $rules = [
         'nama' => 'required|min:3',
+        'nama_pemilik' => 'required|min:3',
         'pesan' => 'required|min:6',
+        'nominal' => 'required|min:4',
 
     ];
 
@@ -19,26 +22,28 @@ class Slide10 extends Component
     {
         $this->validateOnly($propertyName);
     }
-
     public function render()
     {
-        $this->pesanDoa = PesanDoa::where('undangan', 'mulka')->latest()->limit(10)->get();
-        return view('livewire.components.slide10');
+        return view('livewire.template-ti.section4');
     }
-
     public function submitHandler()
     {
         $this->validate();
-        $this->pesanDoa = PesanDoa::create([
-            'undangan' => 'mulka',
+        $user = UserTransfer::create([
             'nama' => $this->nama,
-            'pesan' => $this->pesan
+            'atas_nama' => $this->nama_pemilik,
+            'pesan' => $this->pesan,
+            'nominal' => $this->nominal,
+            'undangan' => 'guntur',
         ]);
-
+        // dd($user);
         $this->info();
-        $this->pesan = '';
         $this->nama = '';
+        $this->nama_pemilik = '';
+        $this->pesan = '';
+        $this->nominal = '';
     }
+
     public function info()
     {
         $this->dispatchBrowserEvent('swal:modal', [

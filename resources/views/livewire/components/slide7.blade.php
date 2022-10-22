@@ -1,5 +1,5 @@
 
-<div  wire:ignore
+<div
  id="slide7" class="flex  slide2 w-full justify-center items-center flex-col relative py-6">
     <img loading="lazy" class="w-[250px] md:w-[300px] lg:w-[400px] absolute right-0 top-0 rotate-180 " src="{{asset('gambar/gambar1.png')}}" alt="">
     <div
@@ -12,7 +12,7 @@
         <p class="italic">Atas restu dan kedatangan kamu ke pesta pernikahan kami sudah sangat merasa bahagia. Tetapi jika kamu ingin memberi hadiah, kamo menyediakan <span class="font-bold text-primary">Amplop Digital</span> untuk memudahkan kamu, Terima Kasih</p>
     </div>
 
-    <div
+    <div wire:ignore.self
     data-aos="zoom-in"  
         data-aos-delay="1000"
         data-aos-duration="1000"

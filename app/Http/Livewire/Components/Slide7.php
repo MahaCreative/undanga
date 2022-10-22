@@ -12,10 +12,10 @@ class Slide7 extends Component
 
 
     protected $rules = [
-        'nama' => 'required|min:6',
-        'nama_pemilik' => 'required|min:6',
+        'nama' => 'required|min:3',
+        'nama_pemilik' => 'required|min:3',
         'pesan' => 'required|min:6',
-        'nominal' => 'required|min:6',
+        'nominal' => 'required|min:4',
 
     ];
 

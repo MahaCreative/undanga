@@ -1,14 +1,13 @@
 <?php
 
-namespace App\Http\Livewire\Components;
+namespace App\Http\Livewire\TemplateTi;
 
 use App\Models\PesanDoa;
 use Livewire\Component;
 
-class Slide10 extends Component
+class Section6 extends Component
 {
     public $nama, $pesan, $pesanDoa;
-
     protected $rules = [
         'nama' => 'required|min:3',
         'pesan' => 'required|min:6',
@@ -19,18 +18,15 @@ class Slide10 extends Component
     {
         $this->validateOnly($propertyName);
     }
-
     public function render()
     {
-        $this->pesanDoa = PesanDoa::where('undangan', 'mulka')->latest()->limit(10)->get();
-        return view('livewire.components.slide10');
+        $this->pesanDoa = PesanDoa::where('undangan', 'guntur')->latest()->limit(10)->get();
+        return view('livewire.template-ti.section6');
     }
-
     public function submitHandler()
     {
-        $this->validate();
         $this->pesanDoa = PesanDoa::create([
-            'undangan' => 'mulka',
+            'undangan' => 'guntur',
             'nama' => $this->nama,
             'pesan' => $this->pesan
         ]);

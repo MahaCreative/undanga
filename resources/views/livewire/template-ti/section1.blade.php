@@ -1,4 +1,4 @@
-<section id="slide1" class="relative min-h-screen bg-secondary overflow-hidden">     
+<section  class="relative min-h-screen bg-secondary overflow-hidden">     
     
     <div class="w-full h-screen">
         <img class="h-44 md:h-64 lg:h-96 animate__animated animate__pulse animate__infinite animate__slow absolute bottom-0 left-0" src="{{asset('gambar/TemplateTI/Untitled-3.png')}}" alt="">
@@ -28,8 +28,8 @@
 
     </div>
 
-    <div class="w-full  absolute top-0 left-0">
-        <div class="w-full h-screen relative flex justify-center items-center bg-segitiga  bg-no-repeat bg-center bg-[length:90%_60%] md:bg-[length:60%_70%] pb-10">
+    <div class="w-full  absolute top-0 left-0 z-10">
+        <div class="w-full h-screen relative flex justify-center items-center bg-segitiga bg-opacity-60  bg-no-repeat bg-center bg-[length:90%_60%] md:bg-[length:60%_70%] pb-10">
             <div class="absolute text-center mb-16">
                 <p class="text-white font-yellowtail text-3xl md:text-4xl lg:text-5xl mb-1 md:mb-3">Guntur & Mulka</p>
                 <p class="text-white font-cairo font-light my-1 text-sm  md:text-lg lg:text-xl italic">Akan Segera Melaksanakan Pernikahan</p>
@@ -54,6 +54,7 @@
             </div>
         </div>
     </div>
+    <div class="absolute w-full h-full bg-black opacity-25  top-0 left-0 text-white"></div>
     @push('scripts')
     <script>
         var x = setInterval(function() {

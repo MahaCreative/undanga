@@ -1,6 +1,6 @@
-<section wire:ignore id="slide10" class="slide2 flex w-full justify-center items-center flex-col relative ucapan mt-32">
+<section id="slide10" class="slide2 flex w-full justify-center items-center flex-col relative ucapan mt-32 overflow-hidden">
     <img loading="lazy" class="w-[200px] md:w-[300px] lg:w-[400px] absolute right-0 top-0 rotate-180 " src="{{asset('gambar/gambar1.png')}}" alt="">
-    <div
+    <div wire:ignore
         data-aos="fade-left"
         data-aos-delay="300"
         data-aos-duration="1000"
@@ -8,8 +8,9 @@
     class="absolute top-20 z-10">
         <p class="text-primary text-3xl font-mono font-bold">Ucapan Dan Doa</p>
     </div>
-    <div class="absolute top-32 w-[80%] md:w-1/2 z-10">
-        <form action="" wire:submit="submitHandler">
+    <div wire:ignore class="absolute top-32 w-[80%] md:w-1/2 z-10">
+        <form action="" wire:submit.prevent="submitHandler">
+            @csrf
             <div
         data-aos="fade-left"
         data-aos-delay="300"
@@ -39,9 +40,14 @@
         </form>
     </div>
     
-    <div class="absolute z-10 top-80  w-[80%] md:w-1/2 mt-5">
+    <div wire:ignore class="absolute z-10 top-80  w-[80%] h-[500px] overflow-y-auto overflow-x-hidden md:w-1/2 mt-5">
         @foreach ($pesanDoa as $item)
-            <div class="mt-2 border border-primary border-dashed bg-primary bg-opacity-20 backdrop-blur-md py-2 px-4 rounded-md">
+            <div
+                data-aos="fade-left"
+                data-aos-delay="700"
+                data-aos-duration="1000"
+                data-aos-easing="linear"
+            class="mt-2 border border-primary border-dashed bg-primary bg-opacity-20 backdrop-blur-md py-2 px-4 rounded-md">
                 <h3 class="text-xl text-primary font-bold font-mono border-b-2 inline border-dashed border-spacing-8 border-primary capitalize">{{$item->nama}}</h3>
                 <p class="text-sm font-mono font-light italic mt-3">{{$item->pesan}}</p>
             </div>  

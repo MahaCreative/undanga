@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class PesanDoa extends Model
 {
     use HasFactory;
+    protected $fillable = ['undangan', 'nama', 'pesan'];
 }

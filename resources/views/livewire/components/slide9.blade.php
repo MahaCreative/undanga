@@ -5,7 +5,7 @@
         data-aos-duration="1000"
         data-aos-easing="ease-out-cubic"
         class="col-span-12 md:col-span-6 flex justify-center">
-            <img loading="lazy" class="w-[250px]" src="{{asset('gambar/protocol-01.png')}}" alt="">
+        <img loading="lazy" class="w-[250px]" src="{{asset('gambar/protocol-01.png')}}" alt="">
         </div>
         <div
         data-aos="zoom-in"  
@@ -13,7 +13,7 @@
         data-aos-duration="1000"
         data-aos-easing="ease-out-cubic"
         class="col-span-12 md:col-span-6 flex justify-center">
-            < loading="lazy" class="w-[250px]" src="{{asset('gambar/protocol-02.png')}}" alt="">
+            <img loading="lazy" class="w-[250px]" src="{{asset('gambar/protocol-02.png')}}" alt="">
         </div>
         <div
         data-aos="zoom-in"  

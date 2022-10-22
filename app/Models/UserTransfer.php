@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class UserTransfer extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        'nama',
+        'atas_nama',
+        'pesan',
+        'nominal',
+        'undangan'
+    ];
 }
