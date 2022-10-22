@@ -1,0 +1,8 @@
+@keyframes bunga {
+    from {
+        width: 100px;
+    }
+    to{
+        width: 500px;
+    }
+}

@@ -1,0 +1,48 @@
+@import url('animasi.css');
+.slide1,.slide2{
+    background: url('../gambar/Image.png');
+    height: 705px;
+    
+    background-position: center;
+    background-size: cover;   
+}
+
+.slide33{
+    background: url('../gambar/Image.png');
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+.slide33::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(252, 231, 207, 0.493);
+}
+.ucapan{
+    background: url('../gambar/Image.png');
+    
+    background-size: cover;
+    height: 1000px;
+}
+.bg_segitiga{
+    background: url('../gambar/TemplateTI/segitiga.png');
+    background-position: center;
+    background-size: 60% 70%;
+    background-repeat: no-repeat;
+}
+.bg_frame{
+    background: url('../gambar/TemplateTI/frame.png')
+}
+.bg_digital_frame{
+    background: url('../gambar/TemplateTI/frame-lingkaran.png');
+}
+.color_primary{
+    color: #786047;
+}
+.color_secondary{
+    color: #000107;
+}

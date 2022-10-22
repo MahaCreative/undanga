@@ -1,0 +1,36 @@
+:root{
+    --primary:#000107
+}
+
+/* #slide1{
+    height: 720px;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: var(--primary);
+} */
+
+.color_primary{
+    color: var(--primary);
+}
+.bg_segitiga {
+    background: url('../gambar/TemplateTI/segitiga.png');
+    background-position: center;
+    background-size: 60% 70%;
+    background-repeat: no-repeat;
+}
+
+.bg_frame {
+    background: url('../gambar/TemplateTI/frame.png')
+}
+
+.bg_digital_frame {
+    background: url('../gambar/TemplateTI/frame-lingkaran.png');
+}
+
+.color_primary {
+    color: #786047;
+}
+
+.color_secondary {
+    color: #000107;
+}
