@@ -17,9 +17,9 @@ class Slide6 extends Component
         $event = new Event;
 
         $event->name = 'A new event';
-        $event->description = 'Event description';
         $event->startDateTime = Carbon::now();
         $event->endDateTime = Carbon::now()->addHour();
+
         $event->save();
     }
 }

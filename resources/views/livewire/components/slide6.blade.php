@@ -40,4 +40,7 @@
     </div>
     <img loading="lazy" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" data-aos-easing="linear"
         class="w-[80%] md:1/2 lg:w-1/3 rotate-180 my-6 " src="{{asset('gambar/line1.png')}}" alt="">
+    <iframe
+        src="https://calendar.google.com/calendar/embed?src=aff6c951e580a81df70202a0665ca5f56db313adf0f58b2037108417b78e6793%40group.calendar.google.com&ctz=Asia%2FMakassar"
+        style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </section>
