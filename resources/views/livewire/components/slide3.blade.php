@@ -51,24 +51,25 @@
     @push('scripts')
     <script>
         var x = setInterval(function() {
-            let now = new Date().getTime();
-            let tanggal = new Date(@js($tanggal)).getTime();
-            let distance = tanggal - now;
-            let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            const spanHari = document.getElementById('hari').innerHTML = days;
-            const spanJam = document.getElementById('jam').innerHTML = hours;
-            const spanMenit = document.getElementById('menit').innerHTML = minutes;
-            const spanSeconts = document.getElementById('seconds').innerHTML = seconds;
-            if(distance < 0){
-                const spanHari = document.getElementById('hari').innerHTML = 0;
-                const spanJam = document.getElementById('jam').innerHTML = 0;
-                const spanMenit = document.getElementById('menit').innerHTML = 0;
-                const spanSeconts = document.getElementById('seconds').innerHTML = 0;
-            }
-            }, 1000);
+        let now = new Date().getTime();
+        console.log(now);
+        let tanggal = new Date(@js($tanggal)).getTime();
+        let distance = now - tanggal ;
+        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        const spanHari = document.getElementById('hari').innerHTML = Math.abs(days);
+        const spanJam = document.getElementById('jam').innerHTML = Math.abs(hours);
+        const spanMenit = document.getElementById('menit').innerHTML = Math.abs(minutes);
+        const spanSeconts = document.getElementById('seconds').innerHTML = Math.abs(seconds);
+        if(distance > 0){
+        const spanHari = document.getElementById('hari').innerHTML = 0;
+        const spanJam = document.getElementById('jam').innerHTML = 0;
+        const spanMenit = document.getElementById('menit').innerHTML = 0;
+        const spanSeconts = document.getElementById('seconds').innerHTML = 0;
+        }
+        }, 1000);
     </script>
     @endpush
 </div>
