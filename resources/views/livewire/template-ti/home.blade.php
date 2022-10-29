@@ -52,30 +52,29 @@
 
     @push('scripts')
     <script>
-        const svg = document.getElementById('svg');
-                svg.classList.add('hidden');
-                let down = 6;
+        const svg2 = document.getElementById('svg');
+                svg2.classList.add('hidden');
+                let down1 = 6;
                 document.addEventListener("DOMContentLoaded", () => {
                     document.getElementById('modal-frame').classList.remove('hidden')
                     document.getElementById('modal-frame').classList.add('flex')
                     
-                    const x = setInterval(() => {
-                        down = down - 1;
-                        
-                        if(down < 0 ){
-                            document.getElementById('modal-frame').classList.add('animate-opacity_Out')
-                            document.getElementById('countdown').classList.add('hidden');
-                            document.getElementById('svg').classList.remove('hidden');
-                            const y = setInterval(() => {
+                    const x1 = setInterval(() => {
+                        down1 = down1 - 1;
+                                        
+                            if(down1 < 0 ){ document.getElementById('modal-frame').classList.add('animate-opacity_Out')
+                                document.getElementById('countdown').classList.add('hidden');
+                                document.getElementById('svg').classList.remove('hidden'); 
+                                const y=setInterval(()=> {
                                 document.getElementById('modal-frame').classList.add('hidden')
-                            },2000)
+                                },700)
                             
-                        }else{
-                            document.getElementById('modal-frame').classList.add('animate-opacity_anim')
-                            document.getElementById('modal').classList.add('animate-opacity_anim')
-                            document.getElementById('countdown').innerHTML = down;
+                                }else{
+                                document.getElementById('modal-frame').classList.add('animate-opacity_anim')
+                                document.getElementById('modal').classList.add('animate-opacity_anim')
+                                document.getElementById('countdown').innerHTML = down1;
                             
-                         }
+                                }
                 }, 1000);
              });
              document.getElementById('svg').addEventListener('click', function (){
