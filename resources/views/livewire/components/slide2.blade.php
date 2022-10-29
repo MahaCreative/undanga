@@ -18,7 +18,7 @@
             <h3 data-aos="fade-left" data-aos-delay="700" data-aos-duration="500" data-aos-easing="ease-in-out"
                 class="text-2xl font-semibold text-primary font-mono">Guntur Madjid</h3>
             <p data-aos="fade-left" data-aos-delay="800" data-aos-duration="500" data-aos-easing="ease-in-out"
-                class="text-center">Putra Dari Bapak (Alm) Abd. Madjid dan Hj. Ibu Murni Saide</p>
+                class="text-center">Putra Dari Bapak (Alm) Abd. Madjid dan Ibu Hj. Murni Saide</p>
         </div>
     </div>
 </section>

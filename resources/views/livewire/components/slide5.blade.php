@@ -32,7 +32,7 @@
             <h3 class="text-primary text-3xl md:text-4xl lg:text-5xl font-mono">Guntur Madjid</h3>
             <p
                 class="text-sm md:text-md lg:text-lg italic px-2 py-1.5 my-3 rounded-md bg-primary text-white border-2 border-dashed border-white">
-                Putra dari Bapak (Alm) Abd. Madjid dan Hj. Ibu Murni Saide</p>
+                Putra dari Bapak (Alm) Abd. Madjid dan Ibu Hj. Murni Saide</p>
         </div>
     </div>
     <img loading="lazy" class="w-[200px] md:w-[300px] lg:w-[400px] absolute left-0 bottom-0"

@@ -80,7 +80,7 @@
                     class="h-[170px] md:h-[250px] rounded-full hover:scale-110 hover:cursor-pointer hover:mb-3 transition duration-300 ease-linear"
                     src="{{asset('vektorcowo.png')}}" alt="">
                 <h3 class=" font-yellowtail text-4xl text-red-600">Guntur Madjid</h3>
-                <p class="text-white font-cairo italic">Putra Dari Bapak Abdul Madjid dan Ibu Murni Saide</p>
+                <p class="text-white font-cairo italic">Putra Dari Bapak Abdul Madjid dan Ibu Hj. Murni Saide</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000" data-aos-easing="ease-out-cubic"
                 class="h-24 w-24 rounded-full hover:scale-110 flex items-center justify-center">
