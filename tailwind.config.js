@@ -14,7 +14,7 @@ module.exports = {
       },
       animation: {
         'bounce-slow': 'bounce 1500ms linear infinite',
-        opacity: 'opacity 1000ms linear',
+        opacity_anim: 'opacity 1000ms linear',
         opacity_Out: 'opacity_Out 1000ms linear',
        
       },

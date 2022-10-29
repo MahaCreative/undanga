@@ -63,8 +63,8 @@
                                 },2000)
                                 
                             }else{
-                                document.getElementById('modal-frame').classList.add('animate-opacity')
-                                document.getElementById('modal').classList.add('animate-opacity')
+                                document.getElementById('modal-frame').classList.add('animate-opacity_anim')
+                                document.getElementById('modal').classList.add('animate-opacity_anim')
                                 document.getElementById('countdown').innerHTML = down;
                                 console.log(down);
                              }
