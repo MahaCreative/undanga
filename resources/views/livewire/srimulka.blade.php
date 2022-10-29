@@ -1,6 +1,6 @@
 <div class="min-w-full overflow-x-hidden">
     <div id="modal-frame"
-        class="hidden w-full h-screen justify-center bg-black/50 backdrop-blur-sm items-center z-50 fixed top-0 left-0">
+        class="hidden w-full h-screen justify-center bg-black/50 backdrop-blur-sm items-center z-50 fixed text-center">
         <div id="modal"
             class="relative w-[85%] md:w-1/2 rounded-lg shadow-md bg-primary/50 items-center flex flex-col justify-center py-4 px-8">
             <div class="absolute right-3 top-3 p-2 h-6 w-6 justify-center items-center flex rounded-full bg-white">
@@ -13,9 +13,12 @@
                 </div>
             </div>
             <p data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000" data-aos-easing="linear"
-                class="text-white text-lg md:text-xl lg:text-3xl font-bold">بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ
+                class="text-white text-lg md:text-xl lg:text-3xl font-bold text-center">بِسْــــــــــــــــــمِ اللهِ
+                الرَّحْمَنِ
                 الرَّحِيْمِ</p>
-            <p class="my-6 text-md italic md:text-md text-white">Assalamualaikum Warahmatullahi Wabarakatuh</p>
+            <p class="my-6 text-md italic md:text-md text-white text-center w-full">Assalamualaikum Warahmatullahi
+                Wabarakatuh
+            </p>
             <p class="text-sm italic md:text-lg lg:text-xlm text-center text-white">Tanpa mengurangi rasa hormat kami.
                 Kami mengundang Bpk/Ibu Sdr(i) untuk menghadiri pernikahan anak kami</p>
         </div>
