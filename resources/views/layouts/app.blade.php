@@ -6,19 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
-        
+
         Wedding Invitations</title>
-<link rel="shortcut icon" href="{{asset('gambar/rigns.png')}}">
+    <link rel="shortcut icon" href="{{asset('gambar/rigns.png')}}">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dynalight&display=swap" rel="stylesheet">
-    
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -29,20 +26,21 @@
 </head>
 
 <body class="antialiased overflow-x-hidden">
-    
-    
+
+
 
     {{$slot}}
     <audio id="audio" src="{{asset('musik.mp3')}}"></audio>
-    
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <Script>
         window.addEventListener("DOMContentLoaded", event => {
             const audio = document.getElementById("audio");
             audio.autoplay = true;
         });
-</Script>
+    </Script>
     <script>
         AOS.init();
         const btn = document.querySelectorAll('.btn');
@@ -81,7 +79,7 @@
             });
         })
     </script>
-
+    @stack('scripts')
     @livewireScripts
 </body>
 

@@ -14,6 +14,20 @@ module.exports = {
       },
       animation: {
         'bounce-slow': 'bounce 1500ms linear infinite',
+        opacity: 'opacity 1000ms linear',
+        opacity_Out: 'opacity_Out 1000ms linear',
+       
+      },
+      keyframes: {
+        'opacity': {
+          '0%': { opacity:0 },
+          '100%': {opacity:100}
+        },
+        'opacity_Out': {
+          '0%': { opacity:100 },
+          '100%': {opacity:0}
+        },
+      
       },
 
       backgroundImage: {

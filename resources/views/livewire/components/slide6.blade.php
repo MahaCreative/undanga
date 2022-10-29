@@ -34,13 +34,12 @@
         <button
             class="bg-white py-1.5 px-3  outline-dashed outline-white outline-offset-4 rounded-lg shadow-md shadow-white hover:scale-110 hover:bg-opacity-75 hover:backdrop-blur-md duration-300 ease-in-out transition">Lihat
             Peta</button>
-        <button wire:click="saveDate"
-            class="bg-white py-1.5 px-3  outline-dashed outline-white outline-offset-4 rounded-lg shadow-md shadow-white hover:scale-110 hover:bg-opacity-75 hover:backdrop-blur-md duration-300 ease-in-out transition">Save
-            Tanggal</button>
+        <a class="bg-white py-1.5 px-3  outline-dashed outline-white outline-offset-4 rounded-lg shadow-md shadow-white hover:scale-110 hover:bg-opacity-75 hover:backdrop-blur-md duration-300 ease-in-out transition"
+            target="_blank"
+            href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=N2plMnBpNXFpaXM0Ymh1amJxMGFzbnFiMXYgNGQ3OTNkZjYwMWZkZjQ5OWQwZjlhNTNkYTM1MGNjOGMyYTI5MGZkZTAwMThiZDg4MmQxOTBjYjRiNzhmZjVjYUBn&amp;tmsrc=4d793df601fdf499d0f9a53da350cc8c2a290fde0018bd882d190cb4b78ff5ca%40group.calendar.google.com">Save
+            The Date</a>
     </div>
     <img loading="lazy" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" data-aos-easing="linear"
         class="w-[80%] md:1/2 lg:w-1/3 rotate-180 my-6 " src="{{asset('gambar/line1.png')}}" alt="">
-    <iframe
-        src="https://calendar.google.com/calendar/embed?src=aff6c951e580a81df70202a0665ca5f56db313adf0f58b2037108417b78e6793%40group.calendar.google.com&ctz=Asia%2FMakassar"
-        style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 </section>
