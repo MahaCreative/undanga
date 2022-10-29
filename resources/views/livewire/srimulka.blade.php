@@ -1,6 +1,6 @@
 <div class="min-w-full overflow-x-hidden">
     <div id="modal-frame"
-        class="hidden w-full h-screen justify-center bg-black/50 backdrop-blur-sm items-center z-50 fixed top-0 left-0">
+        class="hidden w-full h-screen justify-center bg-black bg-opacity-50 backdrop-blur-sm items-center z-50 fixed top-0 left-0">
         <div id="modal"
             class="relative w-[85%] md:w-1/2 rounded-lg shadow-md bg-primary/50 items-center flex flex-col justify-center py-4 px-8">
             <div class="absolute right-3 top-3 p-2 h-6 w-6 justify-center items-center flex rounded-full bg-white">
