@@ -64,7 +64,7 @@
                 <p class="text-white font-yellowtail text-3xl md:text-4xl lg:text-5xl mb-1 md:mb-3">Guntur & Mulka</p>
                 <p class="text-white font-cairo font-light my-1 text-sm  md:text-lg lg:text-xl italic">Akan Segera
                     Melaksanakan Pernikahan</p>
-                <p class="text-yellow-400 font-cairo font-medium my-1 text-sm md:text-lg lg:text-xl italic">Minggu, 26
+                <p class="text-yellow-400 font-cairo font-medium my-1 text-sm md:text-lg lg:text-xl italic">Minggu, 13
                     November 2022</p>
                 <div class="flex items-center justify-center gap-x-1 md:gap-x-3">
                     <p class="text-white font-cairo font-light text-sm lg:text-[24pt]">
@@ -98,7 +98,7 @@
         var x = setInterval(function() {
         let now = new Date().getTime();
         let tanggal = new Date(@js($tanggal)).getTime();
-        let distance = now-tanggal;
+        let distance = tanggal - now;
         let days = Math.floor(distance / (1000 * 60 * 60 * 24));
         let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));

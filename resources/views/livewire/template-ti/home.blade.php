@@ -17,9 +17,15 @@
                 </div>
             </div>
             <p data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000" data-aos-easing="linear"
-                class="text-white text-lg md:text-xl lg:text-3xl font-bold">بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ
+                class="text-white text-lg md:text-xl lg:text-3xl font-bold text-center">بِسْــــــــــــــــــمِ اللهِ
+                الرَّحْمَنِ
                 الرَّحِيْمِ</p>
-            <p class="my-6 text-md italic md:text-md text-white">Assalamualaikum Warahmatullahi Wabarakatuh</p>
+            <p class="my-2 text-md italic md:text-md text-white text-center w-full">Assalamualaikum Warahmatullahi
+                Wabarakatuh
+            </p>
+            <p class="my-2 font-yellowtail text-xl md:text-2xl lg:text-4xl text-white capitalize">{{$tamu?
+                str_replace('-', '
+                ', $tamu) : ''}}</p>
             <p class="text-sm italic md:text-lg lg:text-xlm text-center text-white">Tanpa mengurangi rasa hormat kami.
                 Kami mengundang Bpk/Ibu Sdr(i) untuk menghadiri pernikahan anak kami</p>
         </div>

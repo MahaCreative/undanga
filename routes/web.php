@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Livewire\Guntur;
+use App\Http\Livewire\Mulka;
 use App\Http\Livewire\Srimulka;
 use App\Http\Livewire\TemplateTi\Home;
 use Illuminate\Support\Facades\Route;
@@ -15,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('', Srimulka::class);
-Route::get('srimulka', Srimulka::class);
+Route::get('', Mulka::class);
+Route::get('srimulka/{undangan}', Srimulka::class);
 Route::get('guntur', Home::class);
+Route::get('guntur/{undangan}', Guntur::class);

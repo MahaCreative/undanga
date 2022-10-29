@@ -7,8 +7,8 @@
         class="w-96 my-1" src="{{asset('gambar/line4.png')}}" alt="">
     <div data-aos="fade-right" data-aos-delay="900" data-aos-duration="1000" data-aos-easing="linear"
         class="text-center leading-6">
-        <p class="text-white text-xl md:text-3xl lg:text-4xl font-bold font-mono">Kamis</p>
-        <p class="text-white text-lg md:text-2xl lg:text-3xl font-bold font-mono">22 Oktober 2022</p>
+        <p class="text-white text-xl md:text-3xl lg:text-4xl font-bold font-mono">Minggu,</p>
+        <p class="text-white text-lg md:text-2xl lg:text-3xl font-bold font-mono">13 November 2022</p>
     </div>
     <img loading="lazy" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1000" data-aos-easing="linear"
         class="w-96 my-1" src="{{asset('gambar/line4-rotate.png')}}" alt="">
@@ -17,16 +17,19 @@
             data-aos-easing="ease-out-cubic"
             class="col-span-12 md:col-span-6 text-center flex flex-col items-center justify-center gap-y-3">
             <img loading="lazy" class="w-24" src="{{asset('gambar/rigns.png')}}" alt="">
-            <h3 class="text-white font-bold text-2xl font-mono">Akat Nikah</h3>
-            <p class="w-64 text-white">Rumah Mempelai Wanita Jl. Abdul Syakur no 35 Poros Malunda</p>
-            <p class="text-white">10.45 - 11.45</p>
+            <h3 class="text-white font-bold text-2xl font-mono">Akat Nikah & Resepsi</h3>
+            <p class="w-64 text-white">Rumah Mempelai Wanita Jl. Poros Majene-Mamuju Kec. Malunda, Kel. Lamungan Batu,
+                Lingkungan Tambulang-bulang Kab. Majene</p>
+            <p class="text-white">Minggu, 13 November 2022</p>
+            <p class="text-white">10.45 - Selesai</p>
         </div>
         <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" data-aos-easing="ease-out-cubic"
             class="col-span-12 md:col-span-6 text-center flex flex-col items-center justify-center gap-y-3">
             <img loading="lazy" class="w-24" src="{{asset('gambar/cake.png')}}" alt="">
-            <h3 class="text-white font-bold text-2xl font-mono">Resepsi</h3>
-            <p class="w-64 text-white">Rumah Mempelai Wanita Jl. Abdul Syakur no 35 Poros Malunda</p>
-            <p class="text-white">10.45 - 11.45</p>
+            <h3 class="text-white font-bold text-2xl font-mono">Mapparola</h3>
+            <p class="w-64 text-white">Hotel Berkah Mamuju, Jl. Soekarno Hatta, Samping Gedung Keuangan Mamuju</p>
+            <p class="text-white">Senin, 14 November 2022</p>
+            <p class="text-white">11.00 - Selesai</p>
         </div>
     </div>
     <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" data-aos-easing="linear"

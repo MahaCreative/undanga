@@ -890,6 +890,9 @@ video {
 .w-64 {
   width: 16rem;
 }
+.w-1\/2 {
+  width: 50%;
+}
 .w-\[250px\] {
   width: 250px;
 }
@@ -1773,6 +1776,10 @@ video {
 
   .md\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .md\:w-64 {
+    width: 16rem;
   }
 
   .md\:w-\[70\%\] {

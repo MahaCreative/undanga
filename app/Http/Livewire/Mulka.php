@@ -2,15 +2,11 @@
 
 namespace App\Http\Livewire;
 
-use Illuminate\Http\Request;
 use Livewire\Component;
 
-class Srimulka extends Component
+class Mulka extends Component
 {
-    public $undangan;
-    public function mount($undangan)
-    {
-    }
+    public $undangan = null;
     public function render()
     {
         // dd($this->undangan);
