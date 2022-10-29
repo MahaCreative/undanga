@@ -28,23 +28,25 @@
     </div>
     @livewire('components.slide1')
 
-    @livewire('components.slide2')
+    <div>
+        @livewire('components.slide2')
 
-    @livewire('components.slide3')
+        @livewire('components.slide3')
 
-    @livewire('components.slide4')
+        @livewire('components.slide4')
 
-    @livewire('components.slide5')
+        @livewire('components.slide5')
 
-    @livewire('components.slide6')
+        @livewire('components.slide6')
 
-    @livewire('components.slide7')
+        @livewire('components.slide7')
 
-    @livewire('components.slide8')
+        @livewire('components.slide8')
 
-    @livewire('components.slide9')
+        @livewire('components.slide9')
 
-    @livewire('components.slide10')
+        @livewire('components.slide10')
+    </div>
     @push('scripts')
     <script>
         const svg = document.getElementById('svg');
@@ -63,7 +65,7 @@
                         document.getElementById('svg').classList.remove('hidden');
                         const y = setInterval(() => {
                             document.getElementById('modal-frame').classList.add('hidden')
-                        },2000)
+                        },700)
                         
                     }else{
                         document.getElementById('modal-frame').classList.add('animate-opacity_anim')

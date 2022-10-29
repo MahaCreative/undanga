@@ -78,7 +78,7 @@
                 class="flex flex-col items-center justify-center gap-y-3 ">
                 <img loading="lazy"
                     class="h-[250px] rounded-full hover:scale-110 hover:cursor-pointer hover:mb-3 transition duration-300 ease-linear"
-                    src="{{asset('vektor cowo.png')}}" alt="">
+                    src="{{asset('vektorcowo.png')}}" alt="">
                 <h3 class=" font-yellowtail text-4xl text-red-600">Guntur Madjid</h3>
                 <p class="text-white font-cairo italic">Putra Dari Bapak Abdul Madjid dan Ibu Murni Saide</p>
             </div>

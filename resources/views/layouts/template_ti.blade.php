@@ -42,11 +42,14 @@
             const audio = document.getElementById("audio");
             audio.autoplay = true;
         });
-        let nom=0;
-                window.addEventListener("click", event => {
-                const audio = document.getElementById("audio");
-                nom +=1;
-                if(nom <=1){ audio.play() } });
+                let nom=0;
+        window.addEventListener("click", event => {
+            const audio = document.getElementById("audio");
+            nom +=1;
+            if(nom <=1){
+                audio.play()
+            }
+        });
     </Script>
     <script>
         AOS.init();

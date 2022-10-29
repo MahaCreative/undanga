@@ -1,4 +1,4 @@
-<section id="slide1" class=" slide1 flex justify-center items-center flex-col relative">
+<section id="slide1" class=" slide1 flex justify-center items-center flex-col relative overflow-hidden">
     <img id="img1"
         class="w-[200px] md:w-[300px] lg:w-[400px] animate__animated animate__pulse animate__infinite animate__slower absolute right-0 top-0 rotate-180"
         src="{{asset('gambar/gambar1rotate.png')}}" alt="">
