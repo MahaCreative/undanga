@@ -52,7 +52,7 @@
     <script>
         var x = setInterval(function() {
         let now = new Date().getTime();
-        console.log(now);
+        
         let tanggal = new Date(@js($tanggal)).getTime();
         let distance = now - tanggal ;
         let days = Math.floor(distance / (1000 * 60 * 60 * 24));

@@ -40,6 +40,14 @@
             const audio = document.getElementById("audio");
             audio.autoplay = true;
         });
+        let nom=0;
+        window.addEventListener("click", event => {
+            const audio = document.getElementById("audio");
+            nom +=1;
+            if(nom <=1){
+                audio.play()
+            }
+        });
     </Script>
     <script>
         AOS.init();
@@ -54,13 +62,13 @@
         const slide8 = document.getElementById("slide8");
         const slide9 = document.getElementById("slide9");
         const slide10 = document.getElementById("slide10");
-        document.r
+        
         function play(){
             slide2.classList.remove('hidden');
             slide2.scrollIntoView({ behavior: 'smooth', block: 'center' });
             audio.play();
-            
         }
+        
     
     </script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>

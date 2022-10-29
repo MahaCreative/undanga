@@ -1,46 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <!-- Fonts -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;800&display=swap" rel="stylesheet">
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('style')
     <title>Document</title>
     @livewireStyles
 </head>
+
 <body class="antialiased overflow-x-hidden">
-  <audio id="audio" src="{{asset('Beautiful in White - Violin Cover by Aloysia Edith (128 kbps).mp3')}}"></audio>
-{{$slot}}
-<footer class="bg-red-600 py-2.5 px-5 relative">
-    <div class="flex justify-between items-center">
-        <div class="flex gap-x-2 items-center">
-            <p class="font-cairo text-white text-lg text-center items-center">©</p>
-            <p class="font-cairo text-white text-lg text-center items-center"> Copy Right By <a class="hover:text-black" href="https://mcdeveloper.click">Mcdeveloper.click</a></p>
+    <audio id="audio" src="{{asset('Beautiful in White - Violin Cover by Aloysia Edith (128 kbps).mp3')}}"></audio>
+    {{$slot}}
+    <footer class="bg-red-600 py-2.5 px-5 relative">
+        <div class="flex justify-between items-center">
+            <div class="flex gap-x-2 items-center">
+                <p class="font-cairo text-white text-lg text-center items-center">©</p>
+                <p class="font-cairo text-white text-lg text-center items-center"> Copy Right By <a
+                        class="hover:text-black" href="https://mcdeveloper.click">Mcdeveloper.click</a></p>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <Script>
         window.addEventListener("DOMContentLoaded", event => {
             const audio = document.getElementById("audio");
             audio.autoplay = true;
         });
-</Script>
+        let nom=0;
+                window.addEventListener("click", event => {
+                const audio = document.getElementById("audio");
+                nom +=1;
+                if(nom <=1){ audio.play() } });
+    </Script>
     <script>
         AOS.init();
         const btn = document.querySelectorAll('.btn');
@@ -79,7 +86,8 @@
             });
         })
     </script>
-@stack('scripts')
-@livewireScripts
+    @stack('scripts')
+    @livewireScripts
 </body>
+
 </html>
