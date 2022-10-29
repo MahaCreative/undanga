@@ -102,7 +102,7 @@
             class="mt-6 flex gap-x-8">
             <a class="bg-white py-1.5 px-3  outline-dashed outline-white outline-offset-4 rounded-lg shadow-md shadow-white hover:scale-110 hover:bg-opacity-75 hover:backdrop-blur-md duration-300 ease-in-out transition"
                 target="_blank"
-                href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=N2plMnBpNXFpaXM0Ymh1amJxMGFzbnFiMXYgNGQ3OTNkZjYwMWZkZjQ5OWQwZjlhNTNkYTM1MGNjOGMyYTI5MGZkZTAwMThiZDg4MmQxOTBjYjRiNzhmZjVjYUBn&amp;tmsrc=4d793df601fdf499d0f9a53da350cc8c2a290fde0018bd882d190cb4b78ff5ca%40group.calendar.google.com">
+                href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=N2plMnBpNXFpaXM0Ymh1amJxMGFzbnFiMXYgNGQ3OTNkZjYwMWZkZjQ5OWQwZjlhNTNkYTM1MGNjOGMyYTI5MGZkZTAwMThiZDg4MmQxOTBjYjRiNzhmZjVjYUBn&tmsrc=4d793df601fdf499d0f9a53da350cc8c2a290fde0018bd882d190cb4b78ff5ca%40group.calendar.google.com">
                 Save The Date
             </a>
         </div>
