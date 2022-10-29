@@ -2,12 +2,11 @@
     @section('style')
     <link rel="stylesheet" href="{{asset('css/template_it.css')}}">
     @endsection
-    @livewire('template-ti.section1')
     <div id="modal-frame"
-        class="hidden w-full h-screen justify-center bg-black/30 backdrop-blur-sm items-center z-50 fixed text-center">
+        class="hidden w-full h-screen justify-center bg-black/50 backdrop-blur-sm items-center z-50 fixed text-center">
         <div id="modal"
-            class="relative w-[85%] md:w-1/2 rounded-lg shadow-md bg-red-700/50 items-center flex flex-col justify-center py-4 px-8">
-            <div class="absolute right-3 top-3 p-2 h-6 w-6 justify-center items-center flex rounded-full bg-white">
+            class="relative w-[85%] md:w-1/2 rounded-lg shadow-md bg-red-600/50 items-center flex flex-col justify-center py-4 px-8">
+            <div class="absolute   right-3 top-3 p-2 h-6 w-6 justify-center items-center flex rounded-full bg-white">
                 <div class="text-black">
                     <svg id="svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="w-3 h-3">
@@ -30,6 +29,8 @@
                 Kami mengundang Bpk/Ibu Sdr(i) untuk menghadiri pernikahan anak kami</p>
         </div>
     </div>
+    @livewire('template-ti.section1')
+
     <div
         class="w-full text-white flex items-center justify-center text-center px-8 md:px-28 z-30 bg-red-500 py-8 md:py-16 italic font-cairo font-light">
         Every love story is beautiful, but ours is the best one. I loved her since the first time I saw her. My mother
@@ -48,38 +49,40 @@
     </section>
     @livewire('template-ti.section5')
     @livewire('template-ti.section6')
+
     @push('scripts')
     <script>
         const svg = document.getElementById('svg');
-                    svg.classList.add('hidden');
-                    let down = 6;
-                    document.addEventListener("DOMContentLoaded", () => {
-                        document.getElementById('modal-frame').classList.remove('hidden')
-                        document.getElementById('modal-frame').classList.add('flex')
+                svg.classList.add('hidden');
+                let down = 6;
+                document.addEventListener("DOMContentLoaded", () => {
+                    document.getElementById('modal-frame').classList.remove('hidden')
+                    document.getElementById('modal-frame').classList.add('flex')
+                    
+                    const x = setInterval(() => {
+                        down = down - 1;
                         
-                        const x = setInterval(() => {
-                            down = down - 1;
+                        if(down < 0 ){
+                            document.getElementById('modal-frame').classList.add('animate-opacity_Out')
+                            document.getElementById('countdown').classList.add('hidden');
+                            document.getElementById('svg').classList.remove('hidden');
+                            const y = setInterval(() => {
+                                document.getElementById('modal-frame').classList.add('hidden')
+                            },2000)
                             
-                            if(down < 0 ){
-                                document.getElementById('modal-frame').classList.add('animate-opacity_Out')
-                                document.getElementById('countdown').classList.add('hidden');
-                                document.getElementById('svg').classList.remove('hidden');
-                                const y = setInterval(() => {
-                                    document.getElementById('modal-frame').classList.add('hidden')
-                                },2000)
-                                
-                            }else{
-                                document.getElementById('modal-frame').classList.add('animate-opacity_anim')
-                                document.getElementById('modal').classList.add('animate-opacity_anim')
-                                document.getElementById('countdown').innerHTML = down;
-                                console.log(down);
-                             }
-                    }, 1000);
-                 });
-                 document.getElementById('svg').addEventListener('click', function (){
-                    document.getElementById('modal-frame').classList.add('hidden')
-                 })
-                 
+                        }else{
+                            document.getElementById('modal-frame').classList.add('animate-opacity_anim')
+                            document.getElementById('modal').classList.add('animate-opacity_anim')
+                            document.getElementById('countdown').innerHTML = down;
+                            console.log(down);
+                         }
+                }, 1000);
+             });
+             document.getElementById('svg').addEventListener('click', function (){
+                document.getElementById('modal-frame').classList.add('hidden')
+             })
+             
     </script>
     @endpush
+
 </div>

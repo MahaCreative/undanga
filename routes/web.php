@@ -19,5 +19,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('', Mulka::class);
 Route::get('srimulka/{undangan}', Srimulka::class);
-Route::get('guntur', Home::class);
+Route::get('gunturmulka', Home::class);
 Route::get('guntur/{undangan}', Guntur::class);
