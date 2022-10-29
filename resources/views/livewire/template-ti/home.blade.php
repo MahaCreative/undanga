@@ -1,4 +1,4 @@
-<div class="min-w-full">
+<div class="min-w-full overflow-x-hidden">
     @section('style')
     <link rel="stylesheet" href="{{asset('css/template_it.css')}}">
     @endsection
