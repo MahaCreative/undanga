@@ -78,8 +78,8 @@
         <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" data-aos-easing="ease-out-cubic"
             class="absolute text-white top-52 md:top-40 lg:top-36 py-2.5 px-4 my-3 mb-4 bg-black bg-transparent border-white border  shadow-lg shadow-red-600 text-center rounded-lg backdrop-blur-sm">
             <p class="font-bold ">Bank Rakyat Indonesia (BRI) Kode (002)</p>
-            <p>No. Rekening : <span class="font-bold text-red-600">7913.01.01.2256.534</span></p>
-            <p>a/n Sri Mulka</p>
+            <p>No. Rekening : <span class="font-bold text-red-600">7290.01.008338.53.6</span></p>
+            <p>a/n Murni Saide</p>
             <div class="flex justify-center items-center w-full">
                 <img loading="lazy" class="w-24 my-2 " src="{{asset('gambar/BRI.png')}}" alt="">
             </div>
