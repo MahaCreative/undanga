@@ -66,6 +66,8 @@
                     Melaksanakan Pernikahan</p>
                 <p class="text-yellow-400 font-cairo font-medium my-1 text-sm md:text-lg lg:text-xl italic">Minggu, 13
                     November 2022</p>
+                <p class="text-yellow-400 font-cairo font-medium my-1 text-sm md:text-lg lg:text-xl italic">11.00 WITA -
+                    SELESAI</p>
                 <div class="flex items-center justify-center gap-x-1 md:gap-x-3">
                     <p class="text-white font-cairo font-light text-sm lg:text-[24pt]">
                         <span id="hari"></span><span
