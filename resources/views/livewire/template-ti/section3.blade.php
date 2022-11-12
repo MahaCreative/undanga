@@ -78,17 +78,7 @@
         <img loading="lazy" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1000" data-aos-easing="linear"
             class="w-96 my-1" src="{{asset('gambar/line4-rotate.png')}}" alt="">
         <div class="grid grid-cols-12 gap-x-4 gap-y-6 md:gap-y-0 lg:gap-x-14">
-            <div loading="lazy" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="1000"
-                data-aos-easing="ease-out-cubic"
-                class="col-span-12 md:col-span-6 text-center flex flex-col items-center justify-center gap-y-3">
-                <img loading="lazy" class="w-24" src="{{asset('gambar/rigns.png')}}" alt="">
-                <h3 class="text-white font-bold text-2xl font-mono">Akad Nikah & Resepsi</h3>
-                <p class="w-64 text-white">Rumah Mempelai Wanita Jl. Poros Majene-Mamuju Kec. Malunda, Kel. Lamungan
-                    Batu,
-                    Lingkungan Tambulang-bulang Kab. Majene</p>
-                <p class="text-white">Minggu, 13 November 2022</p>
-                <p class="text-white">10.45 WITA - Selesai</p>
-            </div>
+
             <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" data-aos-easing="ease-out-cubic"
                 class="col-span-12 md:col-span-6 text-center flex flex-col items-center justify-center gap-y-3">
                 <img loading="lazy" class="w-24" src="{{asset('gambar/cake.png')}}" alt="">
